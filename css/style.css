@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url(animate.css);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url(//fonts.googleapis.com/css2?family=Dorsa);
+@import url(//fonts.googleapis.com/css2?family=BenchNine:400,300,700);
+@import url(//fonts.googleapis.com/css2?family=Open+Sans:400,300,300italic,400italic,600italic,600,700,700italic,800,800italic);
+
+/*===============   Brand  ==================*/
+.brand{
+    position: relative;
+    display:inline-block;
+    padding: 65px;
+    z-index: 2010;
+}
+
+.brand::before{
+    content:'' ;
+    width: 43px;
+    height: 31px;
+    background-color: url("../imagens/logo-transparent-png.png");
+    display:block;
+    left: 216px;
+    bottom: 1px;
+}
+
+.brand_name{
+    overflow: hidden;
+
+}
+.brand_name + .marca_slogan{
+    margin-top: 8px;
+    text-decoration: none;
+}
+.brand_slogan{
+    font: 400 24px/24px "BenchiNine", sans-serif;
+    letter-spacing: 2.4px;
+    color:aqua
+}
+
+/*===============   Menu   ==================*/
+.rounded {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+  }
+  .sf-menu > li {
+    position: relative;
+    float: left;
+    list-style: none;
+    text-decoration: none;
+  }
+  .sf-menu a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .sf-menu > li > a {
+    color: #bde0fe;
+    font: 400 26px/26px "BenchNine", sans-serif;
+  }
+  .sf-menu > li + li {
+    margin-left: 42px;
+  }
+  
+  .sf-menu ul > li.sfHover > a, .sf-menu ul > li > a:hover {
+    color: #fff3a0;
+  }
+  .sf-menu ul ul > li > a {
+    color: #765842;
+    border-bottom: 1px dotted #181a26;
+  }
+  .sf-menu ul ul > li.sfHover > a, .sf-menu ul ul > li > a:hover {
+    color: #de546b;
+  }
+  .sf-menu ul ul {
+    position: absolute;
+    left: 86px;
+    top: 58%;
+    text-align: left;
+    padding: 18px 28px 15px 21px;
+    background: #fff;
+  }
+  .sf-menu > li.sfHover > a, .sf-menu > li > a:hover {
+    color: #de546b;
+  }
+  .sf-menu > li.active > a {
+    color: #de546b;
+  }

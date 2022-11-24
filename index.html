@@ -5,30 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odontoclean</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="icon" href="imagens/dentistry.png">
 </head>
 <body>
-    <div><!--Pagina inteira-->
-    <header>
-        <div><!--Parte do container-->
-            <div><!--Container principal-->
-                <div><!--Row-->
-                    <div><!--Grid central-->
-                        <div><!--Marca-->
-                            <h1>
+    <div class="page"><!--Page-->
+    
+       <!--====================================================
+                              HEADER
+    ====================================================-->
+        <header>
+        <div id="stuck_container" class="stuck_container"><!--Parte do container-->
+            <div class="container"><!--Container principal-->
+                <div class="row"><!--Row-->
+                    <div class="grid_5 center"><!--Grid central-->
+                        <div class="brand"><!--Marca-->
+                            <h1 class="brand_name">
                                 <a href="index.html">ODONTOCLEAN</a>
                             </h1>
-                            <p>
+                            <p class="brand_slogan">
                                 Sorriso livre
 
                             </p>
                         </div>
                     </div>
 
-                        <div>
-                            <nav>
+                        <div class="grid_6 preffix_1center">
+                            <nav class="nav">
                         
-                                 <ul>
-                                     <li>
+                                 <ul class="sf-menu" data-type="navbar">
+                                     <li class="active">
                                     <a href="index.html">Home</a>
                                      </li>
                                      <li>
@@ -49,11 +57,37 @@
                 </div>
             </div>            
         </div>
-    
-    <div><!--contaneir bloco1-->
-        <di><!--Row-->
-            <di>
-                <img src="imagens/pexels.jpg"/>
+
+        <div class="header_figure">
+            <img src="#" alt="" class="corner">
+        </div>
+
+
+    <!--slider-->
+    <div clas="camera_container">
+        <div id="camera" class="camera_wrap">
+            <div data-src="imagens/slider01.jpg">
+                <div class="camera_caption fadeinleft">
+        </div>
+    </div>
+    <div data-src="imagens/slider02.jpg">
+        <div class="camera_caption fadeinleft">
+    </div>
+        </div>
+        <div data-src="imagens/slider03.jpg">
+            <div class="camera_caption fadeinleft">
+        </div>
+            </div>
+    <div class="header_figure">
+         <img src="#" alt="" class="corner">
+    </div>
+    <!--/Slider-->
+
+     <!-- content -->
+    <div class="container block1"><!--contaneir bloco1-->
+        <di class="row"><!--Row-->
+            <di class="grid_5 center wow fadeInLeft">
+                <img class="rounded" src="imagens\pexels.jpg"/>
                 <h2>welcome!</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
                     fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
