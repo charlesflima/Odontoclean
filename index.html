@@ -1,101 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odontoclean</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/camera.css">
-    <link rel="icon" href="imagens/dentistry.png">
+  <title>Aula 8</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/camera.css">
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.2.1.js"></script>
+
+  <script src='js/device.min.js'></script>
 </head>
 <body>
-    <div class="page"><!--Page-->
-    
-       <!--====================================================
-                              HEADER
-    ====================================================-->
-        <header>
-        <div id="stuck_container" class="stuck_container"><!--Parte do container-->
-            <div class="container"><!--Container principal-->
-                <div class="row"><!--Row-->
-                    <div class="grid_5 center"><!--Grid central-->
-                        <div class="brand"><!--Marca-->
-                            <h1 class="brand_name">
-                                <a href="index.html">ODONTOCLEAN</a>
-                            </h1>
-                            <p class="brand_slogan">
-                                Sorriso livre
-
-                            </p>
-                        </div>
-                    </div>
-
-                        <div class="grid_6 preffix_1center">
-                            <nav class="nav">
-                        
-                                 <ul class="sf-menu" data-type="navbar">
-                                     <li class="active">
-                                    <a href="index.html">Home</a>
-                                     </li>
-                                     <li>
-                                    <a href="Sobre.html">Sobre</a>
-                                     </li>
-                                     <li>
-                                    <a href="#">Contato</a>
-                                     </li>
-                                     <li>
-                                    <a href="#">Contato</a>
-                                     </li>
-                                     <li>
-                                    <a href="#">Contato</a>
-                                     </li>
-                                </ul>
-                            </nav>
-                        </div>
-                </div>
-            </div>            
-        </div>
-
-        <div class="header_figure">
-            <img src="#" alt="" class="corner">
-        </div>
-
-
-    <!--slider-->
-    <div clas="camera_container">
-        <div id="camera" class="camera_wrap">
-            <div data-src="imagens/slider01.jpg">
-                <div class="camera_caption fadeinleft">
-        </div>
-    </div>
-    <div data-src="imagens/slider02.jpg">
-        <div class="camera_caption fadeinleft">
-    </div>
-        </div>
-        <div data-src="imagens/slider03.jpg">
-            <div class="camera_caption fadeinleft">
-        </div>
+<div class="page">
+  <!--========================================================
+                            HEADER
+  =========================================================-->
+  <header>
+    <div id="stuck_container" class="stuck_container">
+      <div class="container">
+        <div class="row">
+          <div class="grid_5 center">
+            <div class="brand">
+              <h1 class="brand_name">
+                <a href="#">Pleasure</a>
+              </h1>
+              <p class="brand_slogan">
+                premium sauna
+              </p>
             </div>
-    <div class="header_figure">
-         <img src="#" alt="" class="corner">
-    </div>
-    <!--/Slider-->
+          </div>
 
-     <!-- content -->
-    <div class="container block1"><!--contaneir bloco1-->
-        <di class="row"><!--Row-->
-            <di class="grid_5 center wow fadeInLeft">
-                <img class="rounded" src="imagens\pexels.jpg"/>
-                <h2>welcome!</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="#" class="btn">more</a>
-             </di>
-        </di>
+          <div class="grid_6 preffix_1 center">
+            <nav class="nav">
+              <ul class="sf-menu" data-type="navbar">
+                <li class="active">
+                  <a href="index.html">Main</a>
+                </li>
+                <li>
+                  <a href="index-1.html">About us</a>
+                </li>
+                <li>
+                  <a href="index-2.html">Services</a>
+                </li>
+                <li>
+                  <a href="index-3.html">Our staff</a>
+                </li>
+                <li>
+                  <a href="index-4.html">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
     </div>
-    </header>
+
+    <div class="header_figure">
+      <img src="images/corner-1.svg" alt="" class="corner">
     </div>
+    <!-- Slider -->
+      <div class="camera_container">
+        <div id="camera" class="camera_wrap">
+          <div data-src="images/slide01.jpg">
+            <div class="camera_caption fadeInLeft">
+
+            </div>
+          </div>
+          <div data-src="images/slide02.jpg">
+            <div class="camera_caption fadeInLeft">
+      
+            </div>
+          </div>
+          <div data-src="images/slide03.jpg">
+            <div class="camera_caption fadeInLeft">
+      
+            </div>
+          </div>
+        </div>
+        <img src="images/slider-corner.svg" alt="" class="corner">
+      </div>
+    <!-- /Slider -->
+    <!-- content -->
+    <div class="container block1">
+      <div class="row">
+        <div class="grid_5 center wow fadeInLeft">
+          <img class="rounded" src="images/page-1_img01.jpg" alt="">
+          <h2>Welcome!</h2>
+          <p>
+            Beciegast nveriti vitaesaert asety kertya aset 
+            aplicaboserde nerafae lorem ipsumodit onsequ untur magni dolores eonqui ratione voluate msequi nesciunt, neque porro quisquam edolore 
+              mias nuyfasaertyu erauas aitaesa.
+          </p>
+          <a href="#" class="btn">more</a>
+        </div>
+      </div>
+    </div>
+    <!-- /content -->
+    <!-- slider navigation goes here -->
+  </header>
+
+
+  <!--========================================================
+                            CONTENT
+  =========================================================-->
+<main>
+<!--content-->
+  <section class="strange">
+    <div class="container bg-content1">
+      <div class="grid_7 preffix_5 wow fadeInRight">
+        <div class="row">
+          <h2>
+            LET OUR SAUNA'S WARMTH
+            WORK FOR YOU! 
+          </h2>
+          <p>
+            Kerta gast nveriti vitaesaert asety kertya aset aplicaboserde nerafae lorem ipsumo ditaut. 
+            Monsequuntur magni dolores eonqui ratione voluptate msequi nesciunt, neque porro quisquam 
+            esdolore nuyfasas. Nuytasas deloiyasser. Vertyu erauas aitaesa ertyasneo eniptaiades.
+          </p>
+          <a href="#" class="btn btn__second">learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /content-->
+</main>
+
+
+  <!--========================================================
+                            FOOTER
+  =========================================================-->
+  <footer class="well4">
+    <div class="rounded-right">
+      <img src="images/footer-round-right.svg" alt="" class="corner">
+    </div>
+    <div class="container">
+      <div class="row layer1">
+        <div class="grid_8 center">
+          <ul class="inline-list social-list">
+            <li> 
+              <a href="#" class="fa fa-twitter"></a>
+            </li>
+            <li> 
+              <a href="#" class="fa fa-facebook"></a>
+            </li>
+            <li> 
+              <a href="#" class="fa fa-google-plus"></a>
+            </li>
+            <li> 
+              <a href="#" class="fa fa-rss"></a>
+            </li>
+            <li> 
+              <a href="#" class="fa fa-pinterest"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid_4">
+            <address>
+              28 Jackson Blvd Ste 1020 Chicago <br>
+              IL 60604-2340
+            </address>
+            <a class="fa-mail" href="mailto:#">
+               contato@it-oficial.com
+            </a>
+            <div>
+              © <span id="copyright-year"></span> |
+              <a href="index-5.html">Privacy Policy</a>
+            </div>
+            More <a rel="nofollow" href="http://it-oficial.com" target="_blank">Sauna Website Templates</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>
